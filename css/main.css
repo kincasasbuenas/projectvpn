@@ -1,0 +1,149 @@
+body{
+	background: url('../img/background-uac.png');
+	background-repeat: repeat-y;
+}
+.navbar-inner{
+	background: #1BA7B4!important;
+}
+.navbar-inner{
+	border-color: #fff!important;
+}
+.navbar-inverse .brand{
+	color: #000!important;
+	background-image: url('../img/logo-uac.png');
+	width: 175px;
+	position: absolute;
+	height: 109px;
+}
+.navbar-inverse .nav>li>a{
+	color:#000!important;
+}
+.navbar-inverse .nav .active>a{
+	background: #54BCC3!important;
+}
+.container-uac{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 79px;
+}
+.container-uac .subcontainer{
+display: block;
+float: left;
+margin:10px 0 0 0;
+width: 100%;
+}
+.titulo h5{
+	text-align: center;
+	color: #67696C;
+	font-size: 30px;
+	line-height: 30px;
+	padding: 75px  0 20px 0;
+}
+.inicia-sesion .navbar-form{
+text-align: center;
+}
+.navbar-form #btn-iniciar{
+	margin-top: 20px;
+}
+.inicia-sesion .navbar-form h1{
+	line-height: 5px;
+	font-size: 12px;
+	color: #006F7D;
+}
+input.span2{
+	width: 300px;
+}
+label.error{
+	width: auto;
+	color:red;
+	font-size: 11px;
+	text-align: left;
+	padding: 1px 0 0 33px;
+	line-height: 13px;
+	margin: 0;
+}
+.contenedorform{
+	display: block;
+	width: 380px;
+	margin: 0 auto;
+}
+.footer{
+	display: block;
+	bottom: 0;
+	width: 100%;
+	background: #1BA7B4;
+	position: absolute;
+	height: 40px;
+}
+.contenido .content-btn-cerrar{
+	text-align: center;
+}
+.contenido .content-btn-cerrar .btn-danger a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+.contenido .content-btn-cerrar #btn-cerrar{
+	margin-top: 20px;
+}
+.inicia-sesion .contenido h1{
+	font-size: 18px;
+	line-height: 20px;
+	color: #006F7D;
+	text-align: center;
+}
+.inicia-sesion .contenido .content-descarga{
+	text-align: center;
+	display: block;
+}
+.inicia-sesion .contenido a{
+	font-size: 14px;
+	color: #000;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#forminiciasesion .datos-incorrectos{
+	margin: 10px 0 0 0;
+	font-size: 13px;
+	color: red;
+	display: block;
+}
+.footer p{
+	color: #fff;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 980px) {
+	.contenedorform{
+	width: 300px;
+	}
+	label.error{
+	padding: 1px 0 0 0;
+	}
+	.titulo h5{
+	font-size: 25px;
+	}
+	body{
+	padding: 0;
+	}
+	.navbar-inverse .brand{
+	left: 20px;
+	top: 0;
+	width: 190px;
+	}
+	.navbar .btn-navbar{
+	display: none;
+	}
+	.footer{
+	height: auto;
+	}
+}
+@media screen and (max-width: 380px) {
+	.titulo h5{
+		font-size: 20px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+}
